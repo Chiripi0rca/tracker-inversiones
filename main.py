@@ -3,7 +3,7 @@ from decimal import Decimal
 from pathlib import Path
 
 #Inicializar las variables
-path = Path("portafolio.json") #Obtener el path del json
+path = Path("portafolioprueba.json") #Obtener el path del json
 
 #Variables para saber el total invertido en los brokers 
 total_invertido_GBM = Decimal("0")
