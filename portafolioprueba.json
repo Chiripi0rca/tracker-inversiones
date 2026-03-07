@@ -1,0 +1,36 @@
+{
+  "accounts": {
+    "GBM": {
+      "currency": "MXN",
+      "holdings": [
+        {"notes": "primera inversion 01/01/2026"},
+        { "ticker": "FUNO11", "type": "FIBRA", "shares": 10, "avg_cost": 25.00},
+        { "ticker": "FMTY14", "type": "FIBRA", "shares": 15, "avg_cost": 14.50},
+        { "ticker": "DANHOS13", "type": "FIBRA", "shares": 8, "avg_cost": 27.00},
+        {"notes": "segunda inversion 15/01/2026"},
+        { "ticker": "FUNO11", "type": "FIBRA", "shares": 5, "avg_cost": 26.00},
+        { "ticker": "FNOVA17", "type": "FIBRA", "shares": 10, "avg_cost": 35.00},
+        {"notes": "tercera inversion 01/02/2026"},
+        { "ticker": "FIBRAPL14", "type": "FIBRA", "shares": 3, "avg_cost": 80.00},
+        { "ticker": "FMTY14", "type": "FIBRA", "shares": 20, "avg_cost": 15.00}
+      ]
+    },
+    "Bitso": {
+      "currency": "MXN",
+      "holdings": [
+        {"notes": "primera inversion 02/01/2026"},
+        { "ticker": "VTI", "type": "ETF", "shares": 0.05, "avg_cost": 6000.00},
+        { "ticker": "QQQ", "type": "ETF", "shares": 0.03, "avg_cost": 11000.00},
+        { "ticker": "AAPL", "type": "STOCK", "shares": 0.08, "avg_cost": 4800.00},
+        { "ticker": "NVDA", "type": "STOCK", "shares": 0.10, "avg_cost": 3400.00},
+        {"notes": "segunda inversion 16/01/2026"},
+        { "ticker": "GOOG", "type": "STOCK", "shares": 0.06, "avg_cost": 5600.00},
+        { "ticker": "MSFT", "type": "STOCK", "shares": 0.04, "avg_cost": 8200.00},
+        { "ticker": "SCHD", "type": "ETF", "shares": 0.30, "avg_cost": 545.00},
+        {"notes": "tercera inversion 01/02/2026"},
+        { "ticker": "VTI", "type": "ETF", "shares": 0.02, "avg_cost": 6100.00},
+        { "ticker": "VYMI", "type": "ETF", "shares": 0.12, "avg_cost": 1700.00}
+      ]
+    }
+  }
+}
