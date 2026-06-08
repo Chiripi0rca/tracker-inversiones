@@ -3,11 +3,12 @@ from decimal import Decimal
 from pathlib import Path
 
 #Inicializar las variables
-path = Path("portafolioprueba.json") #Obtener el path del json
+path = Path("portafolio.json") #Obtener el path del json
 
 #Variables para saber el total invertido en los brokers 
 total_invertido_GBM = Decimal("0")
 total_invertido_Bitso = Decimal("0")
+total_invertido_BitsoCrypto = Decimal("0")
 
 
 
@@ -47,8 +48,10 @@ for account_name, account_data in data['accounts'].items(): #Este es path para r
           if account_name == 'GBM':
                 #Aqui lo vamos sumando cada precio del ticker para saber cuanto fue lo que se invirtio
                 total_invertido_GBM += total 
-          else:
+          elif account_name == 'Bitso':
                 total_invertido_Bitso += total
+          else:
+               total_invertido_BitsoCrypto += total
 
           total_semana += total #Aqui almacenamos la suma de la semana
           print (f'{item["ticker"]}: {item["shares"]} * {item["avg_cost"]} = {total:.2f}')
@@ -61,13 +64,32 @@ for account_name, account_data in data['accounts'].items(): #Este es path para r
                 print("_________________________________\n")
                 print(f'Total invertido en GBM es : {total_invertido_GBM}')
                 print("_________________________________\n") 
-     else: 
+     elif account_name == 'Bitso':
                 print("_________________________________\n")
                 print(f'Total invertido en Bitso es : {total_invertido_Bitso}')
                 print("_________________________________\n")  
+     else:
+                print("_________________________________\n")
+                print(f'Total invertido en Criptomonedas es : {total_invertido_BitsoCrypto}')
+                print("_________________________________\n")  
+           
+print("___________________________________________________________________________________________________\n")
+print("___________________________________________________________________________________________________\n")
+print("___________________________________________________________________________________________________\n")
+
 
 print("_________________________________\n")
-print(f'Total invertido es: {total_invertido_Bitso + total_invertido_GBM}')
+print(f'Total invertido en GBM es : {total_invertido_GBM}')
+print("_________________________________\n") 
+print("_________________________________\n")
+print(f'Total invertido en Bitso es : {total_invertido_Bitso}')
+print("_________________________________\n")  
+print("_________________________________\n")
+print(f'Total invertido en Criptomonedas es : {total_invertido_BitsoCrypto}')
+print("_________________________________\n")  
+print("_________________________________\n")  
+print("_________________________________\n")
+print(f'Total invertido es: {total_invertido_Bitso + total_invertido_GBM + total_invertido_BitsoCrypto}')
 print("_________________________________\n")
 
 

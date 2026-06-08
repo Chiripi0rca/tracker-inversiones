@@ -1,0 +1,84 @@
+{
+  "accounts": {
+    "GBM": {
+      "currency": "MXN",
+      "holdings": [
+        {"notes": "primera inversion 05/01/2026"},
+        { "ticker": "DANHOS13", "type": "FIBRA", "shares": 17, "avg_cost": 28.39},
+        { "ticker": "FNOVA17", "type": "FIBRA", "shares": 13, "avg_cost": 36.90 },
+        { "ticker": "FUNO11", "type": "FIBRA", "shares": 18, "avg_cost": 27.19 },
+        { "ticker": "FMTY14", "type": "FIBRA", "shares": 32, "avg_cost": 15.60 },
+        { "ticker": "FMTY14", "type": "FIBRA", "shares": 5, "avg_cost": 15.57 },
+        { "ticker": "FIBRAPL14", "type": "FIBRA", "shares": 6, "avg_cost": 76.72 },
+        {"notes": "segunda inversion 06/01/2026"},
+        { "ticker": "FUNO11", "type": "FIBRA", "shares": 3, "avg_cost": 26.74 },
+        { "ticker": "FUNO11", "type": "FIBRA", "shares": 4, "avg_cost": 26.40 },
+        { "ticker": "FMTY14", "type": "FIBRA", "shares": 31, "avg_cost": 15.95 },
+        { "ticker": "FNOVA17", "type": "FIBRA", "shares": 13, "avg_cost": 37.80 },
+        { "ticker": "FIBRAPL14", "type": "FIBRA", "shares": 3, "avg_cost": 78.86 },
+        { "ticker": "DANHOS13", "type": "FIBRA", "shares": 3, "avg_cost": 27.97 },
+        {"notes": "tercera inversion 16/01/2026"},
+        { "ticker": "FUNO11", "type": "FIBRA", "shares": 7, "avg_cost": 27.97 },
+        { "ticker": "FMTY14", "type": "FIBRA", "shares": 7, "avg_cost": 15.46 },
+        { "ticker": "FNOVA17", "type": "FIBRA", "shares": 3, "avg_cost": 38.25 },
+        { "ticker": "FIBRAPL14", "type": "FIBRA", "shares": 2, "avg_cost": 82.00 },
+        { "ticker": "DANHOS13", "type": "FIBRA", "shares": 3, "avg_cost": 28.00 },
+        {"notes": "cuarta inversion 08/02/2026"},
+        { "ticker": "FMTY14", "type": "FIBRA", "shares": 3, "avg_cost": 14.03 },
+        { "ticker": "FNOVA17", "type": "FIBRA", "shares": 9, "avg_cost": 33.91 },
+        { "ticker": "FIBRAPL14", "type": "FIBRA", "shares": 2, "avg_cost": 86.28 },
+        {"notes": "quinta inversion 16/02/2026"},
+        {"ticker": "FIBRAMQ12", "type": "FIBRA", "shares": 4, "avg_cost":37.20},
+        {"ticker": "FCFE18", "type": "FIBRA", "shares": 6, "avg_cost":23.82},
+        {"ticker": "FUNO11", "type": "FIBRA", "shares": 2, "avg_cost":29.89},
+        {"notes": "sexta inversion 31/03/2026"},
+        {"ticker": "FIBRAMQ12", "type": "FIBRA", "shares": 12, "avg_cost":41.70},
+        {"ticker": "FMTY14", "type": "FIBRA", "shares": 36, "avg_cost":15.27},
+        {"ticker": "FIHO12", "type": "FIBRA", "shares": 66, "avg_cost":7.95},
+        {"ticker": "FSHOP13", "type": "FIBRA", "shares": 48, "avg_cost":10.93}
+      ]
+    },
+    "Bitso": {
+      "currency": "MXN",
+      "holdings": [
+        {"notes": "primera inversion 04/01/2026"},
+        { "ticker": "VTI", "type": "ETF", "shares": 0.082189349, "avg_cost": 6084.01 },
+        { "ticker": "QQQ", "type": "ETF", "shares": 0.044822406, "avg_cost": 11156.37 },
+        { "ticker": "MSFT", "type": "STOCK", "shares": 0.0585654, "avg_cost": 8541.49 },
+        { "ticker": "NVDA", "type": "STOCK", "shares": 0.144913928, "avg_cost": 3450.61 },
+        { "ticker": "AAPL", "type": "STOCK", "shares": 0.102691113, "avg_cost": 4869.37 },
+        {"notes": "segunda inversion 05/01/2026"},
+        { "ticker": "GOOG", "type": "STOCK", "shares": 0.087492674, "avg_cost": 5716.34},
+        {"notes": "tercera inversion 15/01/2026"},
+        { "ticker": "VTI", "type": "ETF", "shares": 0.016405016, "avg_cost": 6098.45 },
+        { "ticker": "GOOG", "type": "STOCK", "shares": 0.016807801, "avg_cost": 5952.31 },
+        { "ticker": "QQQ", "type": "ETF", "shares": 0.009015536, "avg_cost": 11096.97 },
+        { "ticker": "MSFT", "type": "STOCK", "shares": 0.012282956, "avg_cost": 8145.04 },
+        { "ticker": "NVDA", "type": "STOCK", "shares": 0.029918242, "avg_cost": 3343.95 },
+        { "ticker": "AAPL", "type": "STOCK", "shares": 0.021785522, "avg_cost": 4592.28 },
+        { "ticker": "AMZN", "type": "STOCK", "shares": 0.064507309, "avg_cost": 4245.76 },
+        {"notes": "cuarta inversion 15/01/2026"},
+        { "ticker": "SCHD", "type": "ETF", "shares": 0.455595319, "avg_cost": 548.75},
+        { "ticker": "GOOG", "type": "STOCK", "shares": 0.045572718, "avg_cost": 5654 },
+        { "ticker": "XOM", "type": "ETF", "shares": 0.099269273, "avg_cost": 2595.39 },
+        { "ticker": "VYMI", "type": "STOCK", "shares": 0.145209892, "avg_cost": 1721.91 },
+        {"notes": "quinta inversion 16/02/2026"},
+        { "ticker": "SCHD", "type": "ETF", "shares": 0.306048116, "avg_cost": 548.63},
+        { "ticker": "VXUS", "type": "ETF", "shares": 0.117970098, "avg_cost": 1442.38 },
+        { "ticker": "XOM", "type": "ETF", "shares": 0.064276302, "avg_cost": 2583.85 },
+        { "ticker": "VYMI", "type": "ETF", "shares": 0.095705514, "avg_cost": 1735.33 },
+        {"notes": "sexta inversion 31/03/2026"},
+        { "ticker": "XOM", "type": "ETF", "shares": 0.172505558 , "avg_cost": 3055.57},
+        { "ticker": "SCHD", "type": "ETF", "shares": 0.953049497 , "avg_cost": 553.15}
+      ]
+    },
+      "Bitso(CriptoMonedas)": {
+      "currency": "MXN",
+      "holdings": [
+        {"notes": "primera inversion 31/03/2026"},
+        { "ticker": "AVAX", "type": "Crypto", "shares": 1.4, "avg_cost": 161.45 },
+        { "ticker": "LINK", "type": "Crypto", "shares": 0.75989989, "avg_cost": 159.14}
+      ]
+    }
+  }
+}
